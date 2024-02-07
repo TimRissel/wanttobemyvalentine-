@@ -1,28 +1,20 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #ffecf2; /* Soft pink */
-    background-image: url('romantic_background.jpg'); /* Romantic background image */
-    background-size: cover;
-    background-position: center center;
     margin: 0;
     padding: 0;
     text-align: center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .container {
-    max-width: 80%; /* Adjust container width as needed */
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 600px;
+    margin: 100px auto;
 }
 
 h1 {
-    color: #f8f8ff; /* Off-white */
+    color: #ff4d6d; /* Romantic color */
 }
 
 .options {
@@ -41,12 +33,5 @@ button {
 }
 
 #response {
-    display: none;
-}
-
-/* Adjust GIF size */
-.gifteddy {
-    width: 100%; /* Adjust the width as needed */
-    max-width: 400px; /* Limit the maximum width */
-    height: auto; /* Maintain aspect ratio */
+    margin-top: 30px;
 }
